@@ -1,11 +1,13 @@
 lockfileVersion: 5.3
 
 specifiers:
+  interweave: ^12.7.2
   react: ^17.0.2
   react-dom: ^17.0.2
   react-scripts: 4.0.3
 
 dependencies:
+  interweave: 12.7.2_react@17.0.2
   react: 17.0.2
   react-dom: 17.0.2_react@17.0.2
   react-scripts: 4.0.3_react@17.0.2
@@ -5939,6 +5941,15 @@ packages:
       get-intrinsic: 1.1.1
       has: 1.0.3
       side-channel: 1.0.4
+    dev: false
+
+  /interweave/12.7.2_react@17.0.2:
+    resolution: {integrity: sha512-F91iYBH6qcE8QnjZAvWJNm/FeMlbYSsTJvwqYWNyBd/c/Wsb7MnQ4ZCTAOfn5DzoKK2U/vdm9os4d9Qu8GZvHw==}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0
+    dependencies:
+      escape-html: 1.0.3
+      react: 17.0.2
     dev: false
 
   /ip-regex/2.1.0:

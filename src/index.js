@@ -1,9 +1,8 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
 import * as introduction from './introduction/index.js';
 
 
 ReactDOM.render(
-  <introduction.AddingData />,
+  <introduction.HTMLTags />,
   document.getElementById('root')
 );
