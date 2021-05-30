@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as introduction from './introduction/index.js';
+import * as reactivity from './reactivity/index.js';
 
 
 ReactDOM.render(
-  <introduction.HTMLTags />,
+  <reactivity.UpdatingArraysAndObjects />,
   document.getElementById('root')
 );
