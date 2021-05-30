@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as reactivity from './reactivity/index.js';
+import * as props from './props/index.js';
 
 
 ReactDOM.render(
-  <reactivity.UpdatingArraysAndObjects />,
+  <props.SpreadProps />,
   document.getElementById('root')
 );
