@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as logic from './logic/index.js';
+import * as events from './events/index.js';
 
 
 ReactDOM.render(
-  <logic.AwaitBlocks />,
+  <events.DOMEventForwarding />,
   document.getElementById('root')
 );
