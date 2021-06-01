@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as props from './props/index.js';
+import * as logic from './logic/index.js';
 
 
 ReactDOM.render(
-  <props.SpreadProps />,
+  <logic.AwaitBlocks />,
   document.getElementById('root')
 );
