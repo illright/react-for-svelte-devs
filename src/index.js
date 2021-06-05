@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as events from './events/index.js';
+import * as bindings from './bindings/index.js';
 
 
 ReactDOM.render(
-  <events.DOMEventForwarding />,
+  <bindings.ComponentBindings />,
   document.getElementById('root')
 );
