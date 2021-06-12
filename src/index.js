@@ -1,8 +1,8 @@
 import ReactDOM from 'react-dom';
-import * as bindings from './bindings/index.js';
+import * as lifecycle from './lifecycle/index.js';
 
 
 ReactDOM.render(
-  <bindings.ComponentBindings />,
+  <lifecycle.Tick />,
   document.getElementById('root')
 );

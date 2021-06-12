@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "elizabot": "^0.0.3",
     "interweave": "^12.7.2",
     "marked": "^2.0.7",
     "react": "^17.0.2",
